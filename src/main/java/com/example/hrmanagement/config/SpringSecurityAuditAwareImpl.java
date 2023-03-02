@@ -1,6 +1,6 @@
-package com.example.hrmanagment.config;
+package com.example.hrmanagement.config;
 
-import com.example.hrmanagment.entity.Employee;
+import com.example.hrmanagement.entity.Employee;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

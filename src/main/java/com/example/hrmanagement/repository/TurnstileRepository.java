@@ -1,6 +1,6 @@
-package com.example.hrmanagment.repository;
+package com.example.hrmanagement.repository;
 
-import com.example.hrmanagment.entity.Turnstile;
+import com.example.hrmanagement.entity.Turnstile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import javax.validation.constraints.NotNull;
 import java.util.UUID;

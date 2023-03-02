@@ -1,9 +1,9 @@
-package com.example.hrmanagment.controller;
+package com.example.hrmanagement.controller;
 
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.TaskDto;
-import com.example.hrmanagment.payload.TaskSetStateDto;
-import com.example.hrmanagment.service.TaskService;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.TaskDto;
+import com.example.hrmanagement.payload.TaskSetStateDto;
+import com.example.hrmanagement.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;

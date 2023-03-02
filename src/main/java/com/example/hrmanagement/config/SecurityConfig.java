@@ -1,7 +1,7 @@
-package com.example.hrmanagment.config;
+package com.example.hrmanagement.config;
 
-import com.example.hrmanagment.security.JwtFilter;
-import com.example.hrmanagment.service.ManagerAuthService;
+import com.example.hrmanagement.security.JwtFilter;
+import com.example.hrmanagement.service.ManagerAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

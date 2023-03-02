@@ -1,14 +1,14 @@
-package com.example.hrmanagment.service;
+package com.example.hrmanagement.service;
 
-import com.example.hrmanagment.entity.Employee;
-import com.example.hrmanagment.entity.enums.RoleName;
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.EmployeeLoginDto;
-import com.example.hrmanagment.payload.EmployeeRegisterDto;
-import com.example.hrmanagment.payload.SetPasswordDto;
-import com.example.hrmanagment.repository.EmployeeRepository;
-import com.example.hrmanagment.repository.RoleRepository;
-import com.example.hrmanagment.security.JwtProvider;
+import com.example.hrmanagement.entity.Employee;
+import com.example.hrmanagement.entity.enums.RoleName;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.EmployeeLoginDto;
+import com.example.hrmanagement.payload.EmployeeRegisterDto;
+import com.example.hrmanagement.payload.SetPasswordDto;
+import com.example.hrmanagement.repository.EmployeeRepository;
+import com.example.hrmanagement.repository.RoleRepository;
+import com.example.hrmanagement.security.JwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;

@@ -1,13 +1,13 @@
-package com.example.hrmanagment.service;
+package com.example.hrmanagement.service;
 
-import com.example.hrmanagment.entity.Employee;
-import com.example.hrmanagment.entity.Task;
-import com.example.hrmanagment.entity.enums.TaskState;
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.TaskDto;
-import com.example.hrmanagment.payload.TaskSetStateDto;
-import com.example.hrmanagment.repository.EmployeeRepository;
-import com.example.hrmanagment.repository.TaskRepository;
+import com.example.hrmanagement.entity.Employee;
+import com.example.hrmanagement.entity.Task;
+import com.example.hrmanagement.entity.enums.TaskState;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.TaskDto;
+import com.example.hrmanagement.payload.TaskSetStateDto;
+import com.example.hrmanagement.repository.EmployeeRepository;
+import com.example.hrmanagement.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

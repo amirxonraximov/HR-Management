@@ -1,9 +1,9 @@
-package com.example.hrmanagment.service;
+package com.example.hrmanagement.service;
 
-import com.example.hrmanagment.entity.Turnstile;
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.TurnstileDto;
-import com.example.hrmanagment.repository.TurnstileRepository;
+import com.example.hrmanagement.entity.Turnstile;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.TurnstileDto;
+import com.example.hrmanagement.repository.TurnstileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

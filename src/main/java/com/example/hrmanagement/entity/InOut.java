@@ -1,6 +1,6 @@
-package com.example.hrmanagment.entity;
+package com.example.hrmanagement.entity;
 
-import com.example.hrmanagment.entity.enums.InOutType;
+import com.example.hrmanagement.entity.enums.InOutType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

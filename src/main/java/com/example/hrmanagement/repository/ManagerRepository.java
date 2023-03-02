@@ -1,6 +1,6 @@
-package com.example.hrmanagment.repository;
+package com.example.hrmanagement.repository;
 
-import com.example.hrmanagment.entity.Manager;
+import com.example.hrmanagement.entity.Manager;
 import org.springframework.data.jpa.repository.JpaRepository;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;

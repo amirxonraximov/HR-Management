@@ -1,7 +1,7 @@
-package com.example.hrmanagment.repository;
+package com.example.hrmanagement.repository;
 
-import com.example.hrmanagment.entity.Role;
-import com.example.hrmanagment.entity.enums.RoleName;
+import com.example.hrmanagement.entity.Role;
+import com.example.hrmanagement.entity.enums.RoleName;
 import org.springframework.data.jpa.repository.JpaRepository;
 public interface RoleRepository extends JpaRepository<Role, Integer> {
 

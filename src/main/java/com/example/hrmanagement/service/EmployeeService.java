@@ -1,9 +1,9 @@
-package com.example.hrmanagment.service;
+package com.example.hrmanagement.service;
 
-import com.example.hrmanagment.entity.Employee;
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.EmployeeDto;
-import com.example.hrmanagment.repository.EmployeeRepository;
+import com.example.hrmanagement.entity.Employee;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.EmployeeDto;
+import com.example.hrmanagement.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

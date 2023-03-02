@@ -1,7 +1,7 @@
-package com.example.hrmanagment.security;
+package com.example.hrmanagement.security;
 
 ;
-import com.example.hrmanagment.entity.Role;
+import com.example.hrmanagement.entity.Role;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.stereotype.Component;

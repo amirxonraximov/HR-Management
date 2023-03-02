@@ -1,7 +1,7 @@
-package com.example.hrmanagment.repository;
+package com.example.hrmanagement.repository;
 
-import com.example.hrmanagment.entity.Task;
-import com.example.hrmanagment.entity.enums.TaskState;
+import com.example.hrmanagement.entity.Task;
+import com.example.hrmanagement.entity.enums.TaskState;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.UUID;

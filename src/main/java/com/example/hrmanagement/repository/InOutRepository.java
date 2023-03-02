@@ -1,6 +1,6 @@
-package com.example.hrmanagment.repository;
+package com.example.hrmanagement.repository;
 
-import com.example.hrmanagment.entity.InOut;
+import com.example.hrmanagement.entity.InOut;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 

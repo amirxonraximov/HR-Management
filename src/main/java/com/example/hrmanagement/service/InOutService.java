@@ -1,14 +1,14 @@
-package com.example.hrmanagment.service;
+package com.example.hrmanagement.service;
 
-import com.example.hrmanagment.entity.Employee;
-import com.example.hrmanagment.entity.InOut;
-import com.example.hrmanagment.entity.Turnstile;
-import com.example.hrmanagment.entity.enums.InOutType;
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.InOutDto;
-import com.example.hrmanagment.repository.EmployeeRepository;
-import com.example.hrmanagment.repository.InOutRepository;
-import com.example.hrmanagment.repository.TurnstileRepository;
+import com.example.hrmanagement.entity.Employee;
+import com.example.hrmanagement.entity.InOut;
+import com.example.hrmanagement.entity.Turnstile;
+import com.example.hrmanagement.entity.enums.InOutType;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.InOutDto;
+import com.example.hrmanagement.repository.EmployeeRepository;
+import com.example.hrmanagement.repository.InOutRepository;
+import com.example.hrmanagement.repository.TurnstileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

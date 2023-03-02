@@ -1,9 +1,9 @@
-package com.example.hrmanagment.controller;
+package com.example.hrmanagement.controller;
 
-import com.example.hrmanagment.payload.ApiResponse;
-import com.example.hrmanagment.payload.ManagerLoginDto;
-import com.example.hrmanagment.payload.ManagerRegisterDto;
-import com.example.hrmanagment.service.ManagerAuthService;
+import com.example.hrmanagement.payload.ApiResponse;
+import com.example.hrmanagement.payload.ManagerLoginDto;
+import com.example.hrmanagement.payload.ManagerRegisterDto;
+import com.example.hrmanagement.service.ManagerAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;

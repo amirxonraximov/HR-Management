@@ -1,4 +1,4 @@
-package com.example.hrmanagment.entity.enums;
+package com.example.hrmanagement.entity.enums;
 
 public enum RoleName {
 

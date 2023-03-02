@@ -1,6 +1,6 @@
-package com.example.hrmanagment.security;
+package com.example.hrmanagement.security;
 
-import com.example.hrmanagment.service.ManagerAuthService;
+import com.example.hrmanagement.service.ManagerAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -20,7 +20,7 @@ public class JwtFilter extends OncePerRequestFilter {
     @Autowired
     JwtProvider jwtProvider;
     @Autowired
-    ManagerAuthService authService;
+    ManagerAuthService managerAuthService;
 
     @Override
     protected void doFilterInternal(HttpServletRequest httpServletRequest,
@@ -31,7 +31,7 @@ public class JwtFilter extends OncePerRequestFilter {
             authorization = authorization.substring(7);
             String email = jwtProvider.getEmailFromToken(authorization);
             if (email != null) {
-                UserDetails userDetails = authService.loadUserByUsername(email);
+                UserDetails userDetails = managerAuthService.loadUserByUsername(email);
                 UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
                         new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
                 SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
